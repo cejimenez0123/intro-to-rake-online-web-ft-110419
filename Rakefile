@@ -13,6 +13,6 @@ task :console do
 end
 namespace :db do
   task :migrate => :environment do
-    self.create_table
+    Student.create_table
   end
 end
