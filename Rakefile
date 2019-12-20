@@ -11,3 +11,7 @@ end
 task :console do
   
 end
+namespace :db do
+  task :migrate do
+  end
+end
