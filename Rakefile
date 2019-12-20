@@ -12,6 +12,6 @@ task :console do
   
 end
 namespace :db do
-  task :migrate => :enviroment do
+  task :migrate => :environment do
   end
 end
